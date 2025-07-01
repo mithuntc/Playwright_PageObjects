@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../page_objects/login_page.js';
-import { PageObjectManager } from '../page_objects/pageObjectManager.js';
+import { LoginPage } from '../page_objects/JavaScript/login_page.js';
+import { PageObjectManager } from '../page_objects/JavaScript/pageObjectManager.js';
 // importing json file to get login details & Product name
 import loginDetails from '../utils/loginDetails.json' assert { type: 'json' };
 const dataSet = JSON.parse(JSON.stringify(loginDetails)); // Parse the JSON to ensure it's valid

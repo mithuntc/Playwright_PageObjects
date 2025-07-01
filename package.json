@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "webTest":"npx playwright test tests/end_to_end_test.spec.js"
+    "webTest": "npx playwright test tests/end_to_end_test.spec.js"
   },
   "author": "",
   "license": "ISC",
@@ -11,6 +11,7 @@
   "devDependencies": {
     "@playwright/test": "^1.53.1",
     "@types/node": "^24.0.7",
-    "allure-playwright": "^3.3.0"
+    "allure-playwright": "^3.3.0",
+    "typescript": "^5.8.3"
   }
 }
