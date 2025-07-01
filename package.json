@@ -2,12 +2,15 @@
   "name": "pageobjects",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "webTest":"npx playwright test tests/end_to_end_test.spec.js"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.53.1",
-    "@types/node": "^24.0.7"
+    "@types/node": "^24.0.7",
+    "allure-playwright": "^3.3.0"
   }
 }
