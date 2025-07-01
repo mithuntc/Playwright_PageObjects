@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "webTest": "npx playwright test tests/end_to_end_test.spec.js"
+    "webTest-JS": "npx playwright test tests/Javascript/end_to_end_test.spec.js",
+    "webTest-TS": "npx playwright test tests/Typescript/end_to_end_test.spec.ts"
   },
   "author": "",
   "license": "ISC",

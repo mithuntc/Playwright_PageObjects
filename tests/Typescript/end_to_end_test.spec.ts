@@ -1,8 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../page_objects/JavaScript/login_page.js';
-import { PageObjectManager } from '../page_objects/JavaScript/pageObjectManager.js';
+import { PageObjectManager } from '../../page_objects/TypeScript/pageObjectManager.ts';
 // importing json file to get login details & Product name
-import loginDetails from '../utils/loginDetails.json' assert { type: 'json' };
+import loginDetails from '../../utils/loginDetails.json' assert { type: 'json' };
 const dataSet = JSON.parse(JSON.stringify(loginDetails)); // Parse the JSON to ensure it's valid
 for (const data of dataSet) {
     test(`E_commerce End to End test for ${data.productName}`, async ({ page }) => {
