@@ -54,6 +54,18 @@ To run with UI: npx playwright test --headed
 4. View Report 
 npx playwright show-report
 
+🚀 Special Test Run Commands
+| Command                       | Description                                 |
+| ----------------------------- | ------------------------------------------- |
+| `npm run webTest-JS`          | Runs tests written in **JavaScript**        |
+| `npm run webTest-TS`          | Runs tests written in **TypeScript**        |
+| `npm run BDD-Test`            | Executes **Cucumber BDD** test suite        |
+| `npm run BDD-Test-Regression` | Runs **Cucumber BDD regression** test cases |
+
+To run regression BDD tests: npm run BDD-Test-Regression
+To run JavaScript-based tests: npm run webTest-JS
+To run TypeScript-based tests: npm run webTest-TS
+
 ✅ Features
 Structured using Page Object Model (POM) for reusability and scalability.
 
