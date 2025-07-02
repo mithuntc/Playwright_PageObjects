@@ -1,8 +1,8 @@
-import { DashboardPage } from "./dashboard_page";
-import { LoginPage } from "./login_page";
-import { OrdersHistoryPage } from "./OrdersHistoryPage";
-import { OrdersReviewPage } from "./OrdersReviewPage";
-import { CartPage } from "./CartPage";
+import { DashboardPage } from "./dashboard_page.js";
+import { LoginPage } from "./login_page.js";
+import { OrdersHistoryPage } from "./OrdersHistoryPage.js";
+import { OrdersReviewPage } from "./OrdersReviewPage.js";
+import { CartPage } from "./CartPage.js";
 
 export class PageObjectManager {
 

@@ -1,15 +1,19 @@
 {
   "name": "pageobjects",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "webTest-JS": "npx playwright test tests/Javascript/end_to_end_test.spec.js",
-    "webTest-TS": "npx playwright test tests/Typescript/end_to_end_test.spec.ts"
+    "webTest-TS": "npx playwright test tests/Typescript/end_to_end_test.spec.ts",
+    "BDD-Test" : "npx cucumber-js --exit",
+    "BDD-Test-Regression" : "npx cucumber-js --tags @Regression --exit"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
     "@playwright/test": "^1.53.1",
     "@types/node": "^24.0.7",
     "allure-playwright": "^3.3.0",

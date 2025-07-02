@@ -1,8 +1,8 @@
-import { DashboardPage } from "./dashboard_page";
-import { LoginPage } from "./login_page";
-import { OrdersHistoryPage } from "./OrdersHistoryPage";
-import { OrdersReviewPage } from "./OrdersReviewPage";
-import { CartPage } from "./CartPage";
+import { DashboardPage } from "./dashboard_page.ts";
+import { LoginPage } from "./login_page.ts";
+import { OrdersHistoryPage } from "./OrdersHistoryPage.ts";
+import { OrdersReviewPage } from "./OrdersReviewPage.ts";
+import { CartPage } from "./CartPage.ts";
 import { Page } from "@playwright/test";
 
 export class PageObjectManager {
