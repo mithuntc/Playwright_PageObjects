@@ -3,6 +3,8 @@
 This repository demonstrates an end-to-end E-commerce web application test framework built using [Playwright](https://playwright.dev/) with the **Page Object Model** design pattern.
 
 > ⚠️ **Note**: This project is still under active development. Contributions, suggestions, and improvements are welcome.
+> ⚠️ **Note**: Install the Cucumber (Gherkin) Full Support extension in VS Code Provides syntax highlighting, autocompletion, step navigation, and linting for .feature files.
+
 
 ## 📌 Overview
 
